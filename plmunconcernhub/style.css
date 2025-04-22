@@ -1,0 +1,78 @@
+/* Dark green and white theme with white and black fonts */
+
+body {
+    background-color: #064e3b; /* dark green */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #a7f3d0; /* lighter green */
+}
+
+header, footer {
+    background-color: rgba(255, 255, 255, 0.1); /* translucent white */
+    padding: 1rem;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+input, select, textarea {
+    background-color: white;
+    color: black;
+    border: 1px solid #064e3b;
+    border-radius: 0.375rem;
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #064e3b;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0f766e; /* slightly lighter dark green */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #0f766e;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.error {
+    color: #f87171; /* red-400 */
+}
+
+.success {
+    color: #4ade80; /* green-400 */
+}
